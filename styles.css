@@ -22,7 +22,7 @@ a {
 }
 
 button {
-  border: none;
+  border:1px solid #1F2937;
   border-radius: 8px;
   background: #3882F6;
   padding: 8px 36px;
@@ -50,7 +50,6 @@ button {
 .menu {
   display: flex;
   justify-content:space-between;
-
 }
 
 .right-links {
@@ -66,7 +65,7 @@ button {
 
 .title {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 50px;
 }
 
@@ -129,3 +128,70 @@ button {
   width: 150px;
   font-size: 12px;
 }
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 80px;
+  background-color: #E5E7EB;
+  
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1F2937;
+  max-width: 600px;
+}
+
+.quote-name {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 200px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 20px;
+}
+
+.action-call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.action-call-blue {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 100px 80px 100px;
+  padding: 20px 40px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  color: #F9FAF8;
+  gap: 80px;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.action-title {
+  font-weight: 800;
+}
+
+#button-footer {
+  border-color: #F9FAF8;
+}
+
